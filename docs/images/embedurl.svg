@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1058" height="139" viewBox="0 0 1058 139">
+  <defs>
+    <clipPath id="clip-embedurl">
+      <rect width="1058" height="139"/>
+    </clipPath>
+  </defs>
+  <g id="embedurl" clip-path="url(#clip-embedurl)">
+    <rect width="1058" height="139" fill="#fff"/>
+    <text id="https:_wakatime-languages-pie-svg.vercel.app_svg_username_joelibaceta_uuid_d6c82088-6c98-4dd6-a2ee-9cf6f1bad568" data-name="https://wakatime-languages-pie-svg.vercel.app/svg?username=joelibaceta&amp;uuid=d6c82088-6c98-4dd6-a2ee-9cf6f1bad568" transform="translate(30 76)" fill="#0b52d8" font-size="18" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0" fill="#000">https://wakatime-languages-pie-svg.vercel.app/svg?username=</tspan><tspan y="0" fill="#c91313">joelibaceta</tspan><tspan y="0" fill="#000">&amp;uuid=</tspan><tspan y="0" fill="#0b52d8">d6c82088-6c98-4dd6-a2ee-9cf6f1bad568</tspan></text>
+  </g>
+</svg>

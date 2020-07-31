@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="827" height="138" viewBox="0 0 827 138">
+  <defs>
+    <clipPath id="clip-Mesa_de_trabajo_1">
+      <rect width="827" height="138"/>
+    </clipPath>
+  </defs>
+  <g id="Mesa_de_trabajo_1" data-name="Mesa de trabajo – 1" clip-path="url(#clip-Mesa_de_trabajo_1)">
+    <rect width="827" height="138" fill="#fff"/>
+    <text id="https:_wakatime.com_share_joelibaceta_938269cd-c463-46ff-9190-3d5f4bef0d26.json" data-name="https://wakatime.com/share/@joelibaceta/938269cd-c463-46ff-9190-3d5f4bef0d26.json" transform="translate(20 68)" fill="#707070" font-size="20" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">https://wakatime.com/share/@</tspan><tspan y="0" fill="#b70000">joelibaceta</tspan><tspan y="0">/</tspan><tspan y="0" fill="#004fe5">938269cd-c463-46ff-9190-3d5f4bef0d26</tspan><tspan y="0">.json</tspan></text>
+    <line id="Línea_1" data-name="Línea 1" x2="101" transform="translate(291.5 80.5)" fill="none" stroke="#707070" stroke-width="2"/>
+    <text id="username" transform="translate(302 106)" font-size="18" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">username</tspan></text>
+    <line id="Línea_2" data-name="Línea 2" x2="361" transform="translate(401.5 80.5)" fill="none" stroke="#707070" stroke-width="2"/>
+    <text id="uuid" transform="translate(542 106)" font-size="18" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">uuid</tspan></text>
+  </g>
+</svg>
