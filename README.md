@@ -21,7 +21,7 @@ Get the params from the url
 
 4. Prepare your img url
 
-![](docs/iamges/embedurl.svg)
+![](docs/images/embedurl.svg)
 
 ```html
 <img src="https://wakatime-languages-pie-svg.vercel.app/svg?username=joelibaceta&uuid=d6c82088-6c98-4dd6-a2ee-9cf6f1bad568"/>
