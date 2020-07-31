@@ -46,7 +46,7 @@ class handler(BaseHTTPRequestHandler):
     handles, labels = ax1.axes.get_legend_handles_labels()
     ax1.legend(handles, labels, prop={'size':8}, bbox_to_anchor=(0.2,1.00))
 
-    imgdata = StringIO.StringIO()
+    imgdata = StringIO()
     fig.savefig(imgdata, format='svg', dpi=199)
     imgdata.seek(0)
 
