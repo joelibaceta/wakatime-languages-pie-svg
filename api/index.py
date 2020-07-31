@@ -50,7 +50,7 @@ class handler(BaseHTTPRequestHandler):
     fig.savefig(imgdata, format='svg', dpi=199)
     imgdata.seek(0)
 
-    svg_dta = imgdata.buf
+    svg_dta = imgdata.read()
 
 
     self.send_response(200)
