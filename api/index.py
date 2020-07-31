@@ -57,7 +57,7 @@ class handler(BaseHTTPRequestHandler):
     self.send_header("Accept-Ranges", "bytes")
     self.send_header("Access-Control-Allow-Origin", "*")
     self.send_header("Content-Disposition", "attachment")
-    self.send_header("Content-Length", len(message))
+    self.send_header("Content-Length", len(svg_dta))
     self.send_header("Content-type", "image/svg+xml")
     self.end_headers()
     self.wfile.write(str(svg_dta).encode())
