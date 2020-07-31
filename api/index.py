@@ -1,4 +1,5 @@
 from http.server import BaseHTTPRequestHandler
+from io import StringIO
 
 import requests
 import re
@@ -8,7 +9,7 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 import numpy as np 
 import random
-import StringIO
+
 
 
 class handler(BaseHTTPRequestHandler):
