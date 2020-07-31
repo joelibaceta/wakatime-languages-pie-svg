@@ -3,9 +3,13 @@
 
 ## How to use
 
-1. Go to your wakatime dashboard and select the share menu
+1. Go to your wakatime dashboard, select the share menu
 
 ![](docs/images/wakatime_share.png)
+
+and choose the embeddable charts 
+
+![](docs/images/embeddable_charts.png)
 
 2. Choose the follow options then press the `Get Embeddable Code`
 
