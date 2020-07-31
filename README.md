@@ -1,5 +1,8 @@
 # wakatime-languages-pie-svg
 
+![](https://img.shields.io/github/deployments/joelibaceta/wakatime-languages-pie-svg/production)
+
+<br />
 
 ## How to use
 
