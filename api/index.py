@@ -42,11 +42,14 @@ class handler(BaseHTTPRequestHandler):
     
 
     handles, labels = ax1.axes.get_legend_handles_labels()
-    ax1.legend(handles, labels, prop={'size':8},
-              bbox_to_anchor=(0.2,1.00))
+    ax1.legend(handles, labels, prop={'size':8}, bbox_to_anchor=(0.2,1.00))
 
-    fig.savefig('temp.svg', dpi=199)
-    body = open('temp.svg').read()
+    imgdata = StringIO.StringIO()
+    fig.savefig(imgdata, format='svg', dpi=199)
+    imgdata.seek(0)
+
+    svg_dta = imgdata.buf
+
 
     self.send_response(200)
     self.send_header("Accept-Ranges", "bytes")
@@ -55,5 +58,5 @@ class handler(BaseHTTPRequestHandler):
     self.send_header("Content-Length", len(message))
     self.send_header("Content-type", "image/svg+xml")
     self.end_headers()
-    self.wfile.write(str(body).encode())
+    self.wfile.write(str(svg_dta).encode())
     return  
