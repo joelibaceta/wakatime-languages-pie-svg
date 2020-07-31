@@ -14,8 +14,20 @@ import random
 
 class handler(BaseHTTPRequestHandler):
 
+  def get_param(self, name, path, default=None):
+    pattern = re.compile(r""+name+"\=([^\=\&]+)")
+    match = pattern.search(path)
+    if match is not None:
+        return match.group(1)
+    else:
+        return default
+
   def do_GET(self):
-    wakatime_json_url = "https://wakatime.com/share/@joelibaceta/d6c82088-6c98-4dd6-a2ee-9cf6f1bad568.json" #self.get_param('wakatime_url', self.path)
+
+    username = self.get_param('username', self.path)
+    uuid = self.get_param('uuid', self.path)
+
+    wakatime_json_url = f"https://wakatime.com/share/@{username}/{uuid}.json" 
 
     r = requests.get(wakatime_json_url)
 
