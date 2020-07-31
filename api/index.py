@@ -1,8 +1,14 @@
 from http.server import BaseHTTPRequestHandler
+
 import requests
 import re
 import os
 import colorsys
+import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
+import numpy as np 
+import random
+
 
 class handler(BaseHTTPRequestHandler):
 
