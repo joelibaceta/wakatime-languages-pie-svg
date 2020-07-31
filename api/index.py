@@ -7,7 +7,7 @@ import colorsys
 class handler(BaseHTTPRequestHandler):
 
   def do_GET(self):
-    wakatime_json_url = self.get_param('wakatime_url', self.path)
+    wakatime_json_url = "https://wakatime.com/share/@joelibaceta/d6c82088-6c98-4dd6-a2ee-9cf6f1bad568.json" #self.get_param('wakatime_url', self.path)
 
     r = requests.get(url)
 
